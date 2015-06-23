@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "GeoGigTools: OpenLayers plugin for versioned geodata",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "geobeyond",
+    "githubRepository": "presentations"
+  }
+}
