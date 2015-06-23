@@ -1,10 +1,6 @@
 
-# GeoGigTools: OpenLayers plugin for versioned geodata
+# GeoGigTools
 
-From the terminal, pop in:
+## OpenLayers plugin for versioned geodata
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+#### Francesco Bartoli

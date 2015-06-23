@@ -1,1 +1,8 @@
-["index.md"]
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "/css/img/bg.png"
+        }
+    }
+]

@@ -30,17 +30,24 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
-            sass:
-                files: ['css/source/theme.scss']
-                tasks: ['sass']
 
-        sass:
+            compass:
+                files: ['css/source/theme.scss']
+                tasks: ['compass']
+
+        compass:
 
             theme:
+                options:
+                    basePath: ''
+                    relativeAssets: true
+                    sassDir: 'css/source'
+                    cssDir: 'css'
+                    imagesDir: 'css'
+                    fontsDir: 'css/fonts'
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -80,6 +87,8 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'css/*.css'
+                        'css/img/**'
+                        'css/fonts/**'
                     ]
                     dest: 'dist/'
                 },{
@@ -89,7 +98,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
         buildcontrol:
 
             options:
@@ -101,7 +110,7 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:geobeyond/presentations.git'
                     branch: 'gh-pages'
-        
+
 
 
     # Load all grunt tasks.
@@ -132,7 +141,7 @@ module.exports = (grunt) ->
     grunt.registerTask 'serve',
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
-            'sass'
+            'compass'
             'connect:livereload'
             'watch'
         ]
@@ -140,18 +149,18 @@ module.exports = (grunt) ->
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [
             'test'
-            'sass'
+            'compass'
             'buildIndex'
             'copy'
         ]
 
-    
+
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
