@@ -1,0 +1,130 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "/css/img/bg.png"
+        }
+    },
+    {
+        "filename": "who-we-are.md",
+        "attr": {
+            "data-background": "/css/img/bg.png"
+        }
+    },
+    [
+        {
+            "filename": "geogig-server.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-server-quickstart.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-server-advanced.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-server-webapi.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "opengeo-suite-integration.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "opengeo-suite-integration-1.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "geogig-datastore-1.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-datastore-2.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-datastore-3.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-datastore-4.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogig-datastore-5.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "webgis-challenges.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "openlayers-plugin.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogigtools-functions.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geogigtools-functions-1.md",
+            "attr": {
+                "data-background": "/css/img/bg.png"
+            }
+        }
+    ],
+    {
+        "filename": "geogigtools-references.md",
+        "attr": {
+            "data-background": "/css/img/bg.png"
+        }
+    },
+    {
+        "filename": "geogigtools-credits.md",
+        "attr": {
+            "data-background": "/css/img/bg.png"
+        }
+    },
+    {
+        "filename": "thanks.md",
+        "attr": {
+            "data-background": "/css/img/bg.png"
+        }
+    }
+]
