@@ -108,7 +108,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:geobeyond/presentations.git'
+                    remote: 'git@github.com:geobeyond/presentation-foss4geu2015.git'
                     branch: 'gh-pages'
 
 
