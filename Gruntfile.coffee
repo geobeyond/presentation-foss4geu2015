@@ -90,11 +90,11 @@ module.exports = (grunt) ->
                         'css/img/**'
                         'css/fonts/**'
                     ]
-                    dest: 'dist/'
+                    dest: 'dist/presentation-foss4geu2015'
                 },{
                     expand: true
                     src: ['index.html']
-                    dest: 'dist/'
+                    dest: 'dist/presentation-foss4geu2015'
                     filter: 'isFile'
                 }]
 
